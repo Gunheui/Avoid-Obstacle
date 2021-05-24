@@ -1,5 +1,6 @@
 {
   "name": "avoid-obstacles",
+  "homepage": "https://gunheui.github.io/Avoid-Obstacle",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

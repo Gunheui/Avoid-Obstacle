@@ -39,11 +39,11 @@ const GameMap = ({
 
   const inputImage = (value) => {
     if (value === 1) {
-      return <img src={Barrier} width="40px" height="40px" />;
+      return <img src={Barrier} width="40px" height="40px" alt="Barrier" />;
     } else if (value === 2) {
-      return <img src={Character} width="40px" height="40px" />;
+      return <img src={Character} width="40px" height="40px" alt="Character" />;
     } else if (value === 3) {
-      return <img src={Boom} width="40px" height="40px" />;
+      return <img src={Boom} width="40px" height="40px" alt="Boom" />;
     }
   };
 

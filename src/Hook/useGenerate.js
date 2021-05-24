@@ -13,7 +13,7 @@ const useGenerate = () => {
       let currObstacles = [];
       for (let i = 0; i < prevObstacles.length; i++) {
         let currCoordinate = prevObstacles[i][0];
-        if (currCoordinate == 0) {
+        if (currCoordinate === 0) {
         } else {
           currObstacles.push([currCoordinate - 1, prevObstacles[i][1]]);
         }

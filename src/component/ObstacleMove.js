@@ -1,5 +1,3 @@
-import React from "react";
-
 const ObstaclesMove = (obstaclesCoordinate, setObstaclesCoordinate) => {
   let prevObstacles = [];
   for (let i = 0; i < obstaclesCoordinate.length; i++) {

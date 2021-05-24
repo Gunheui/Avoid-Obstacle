@@ -1,5 +1,3 @@
-import React from "react";
-
 const handleKeyPress = (e, setCharacterCoordinate) => {
   e.preventDefault();
   let currentCoordinate = 0;

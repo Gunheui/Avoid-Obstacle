@@ -1,6 +1,5 @@
 import "./App.css";
-import React, { useState, useEffect, useRef } from "react";
-import ObstaclesGenerator from "./component/ObstaclesGenerator";
+import React, { useState, useEffect } from "react";
 import useGenerate from "./Hook/useGenerate";
 import GameMap from "./component/GameMap";
 import handleKeyPress from "./component/handleKeyPress";

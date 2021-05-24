@@ -1,4 +1,4 @@
-import react, { useState, useCallback } from "react";
+import { useState } from "react";
 
 const useGenerate = () => {
   const [Obstacles, setObstacles] = useState([[19, 1]]);

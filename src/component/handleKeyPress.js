@@ -5,7 +5,6 @@ const handleKeyPress = (e, setCharacterCoordinate) => {
     currentCoordinate = prevCoordinate[0];
     return prevCoordinate;
   });
-  console.log(currentCoordinate);
   if (e.keyCode === 38) {
     if (currentCoordinate === 0) {
       return;

@@ -20,7 +20,7 @@ const useGenerate = () => {
       }
       if (prevObstacles.length > currObstacles.length) {
         let huddle = prevObstacles.length - currObstacles.length;
-        setScore((prevScore) => prevScore + huddle * 50);
+        setScore((prevScore) => prevScore + huddle * 100);
       }
       return currObstacles;
     });

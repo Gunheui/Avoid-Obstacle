@@ -30,7 +30,7 @@ function App() {
     };
     window.addEventListener("keydown", keyHandler);
     return () => window.removeEventListener("keydown", keyHandler);
-  }, [setCharacterCoordinate]);
+  });
 
   useInterval(
     () => {
@@ -51,7 +51,7 @@ function App() {
       setMoveSpeed(500 - speedScale * 25);
       setObstaclesCycle(1000 - speedScale * 50);
     }
-  }, [speedScale]);
+  }, [isSuperMan, speedScale]);
 
   useEffect(() => {
     if (score <= 10000) {
@@ -72,7 +72,7 @@ function App() {
         setObstaclesCycle(200);
       }
     }
-  }, [score]);
+  }, [isSuperMan, speedScale, score, superManScore]);
 
   return (
     <div className="App">
